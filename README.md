@@ -10,6 +10,15 @@ Compress videos in directories with ffmpeg recursively
 * Add the PATH_Programs file directory in to the path variable on windows ! ( System Properties >> Advanced >> Environment Variables >>  User Variables >> Path >> Edit >> copy and paste the file directory)
 * Copy the **ffmpeg.exe** file inside bin and paste it to the Scripts folder where you have installed the python ( Most of the time ***'C:\Python(version)'***
 
+## ffmpeg installation on Ubuntu 20.04
+```
+$ sudo apt update
+$ sudo apt install ffmpeg
+```
+Check if it successfully installed
+```
+$ ffmpeg -version
+```
 ## Run the Code
 * copy the 'video_compression.py' to a folder where you have the videos on & run it.
 
